@@ -15,7 +15,8 @@
     "nodesecurity-npm-utils": "^6.0.0",
     "semver": "^5.4.1",
     "wreck": "^12.5.1",
-    "yargs": "^9.0.1"
+    "yargs": "^9.0.1",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "boom": "^5.2.0",
@@ -51,6 +52,9 @@
   },
   "scripts": {
     "nsp": "bin/nsp check",
-    "test": "lab -a code -t 1 -L"
-  }
+    "test": "lab -a code -t 1 -L",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
