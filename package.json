@@ -15,7 +15,7 @@
     "nodesecurity-npm-utils": "^6.0.0",
     "semver": "^5.4.1",
     "wreck": "^12.5.1",
-    "yargs": "^9.0.1"
+    "yargs": "^10.0.0"
   },
   "devDependencies": {
     "boom": "^5.2.0",
